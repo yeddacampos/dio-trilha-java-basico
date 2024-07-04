@@ -4,8 +4,8 @@ public class Usuario {
         SmartTv smartTv = new SmartTv();
 
         System.out.println("TV Ligada? " + smartTv.ligada);
-        System.out.println("Canal Atual? " + smartTv.canal);
-        System.out.println("Volume atual? " + smartTv.volume);
+        System.out.println("Canal Atual: " + smartTv.canal);
+        System.out.println("Volume atual: " + smartTv.volume);
 
     }
 }
